@@ -1,3 +1,1 @@
-# boilerplate
-
-vite, tailwind, express, Redux toolkit, react, auth0
+Final project - An app to help find walking companion.
