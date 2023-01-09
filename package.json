@@ -35,15 +35,16 @@
     "@auth0/auth0-react": "^1.8.0",
     "@sendgrid/mail": "^7.7.0",
     "@vscode/sqlite3": "^5.0.7",
-    "auth0": "^2.44.0",
+    "auth0": "^3.0.1",
     "express": "^4.17.1",
-    "express-jwt": "^6.1.0",
+    "express-jwt": "^8.3.0",
     "express-jwt-authz": "^2.4.1",
     "jwks-rsa": "^2.0.4",
-    "knex": "^1.0.1",
+    "knex": "^2.4.0",
     "nodemailer": "^6.8.0",
     "react-native-sendgrid": "^1.0.2",
-    "react-redux": "^7.2.5"
+    "react-redux": "^7.2.5",
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
