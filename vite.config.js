@@ -7,6 +7,10 @@ export default defineConfig({
       fastRefresh: process.env.NODE_ENV !== 'test',
     }),
   ],
+  build: {
+    outDir: './build/',
+    emptyOutDir: true,
+  },
   server: {
     proxy: {
       '/api': {
