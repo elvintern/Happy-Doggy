@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { fetchImgUrl, sendEmail } from '../apis/apiClient'
+import { fetchImgUrl, sendEmail } from '../apiClient'
 import { useParams, NavLink, useNavigate } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
 

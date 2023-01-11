@@ -22,10 +22,7 @@ function App() {
           <Route path="/ownerform" element={<OwnerForm />} />
           <Route path="/doglist" element={<DogList />} />
           <Route path="/walker/:id" element={<Walker />} />
-          <Route
-            path="/bookingConfirmation"
-            element={<BookingConfirmation />}
-          />
+          <Route path="/bookingConfirmation" element={<BookingConfirmation />} />
         </Routes>
       </main>
     </>

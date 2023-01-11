@@ -1,6 +1,5 @@
 const path = require('path')
 const express = require('express')
-const cors = require('cors')
 
 const userRoutes = require('./routes/users')
 const dogListRoute = require('./routes/dogList')
@@ -22,7 +21,5 @@ server.use('/api/v1/sendEmail', sendEmail)
 server.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'index.html'))
 })
-
-server.use(cors({ origin: '*' }))
 
 module.exports = server

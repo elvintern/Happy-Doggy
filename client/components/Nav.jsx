@@ -30,7 +30,7 @@ function Nav() {
           <div className="rounded-full ...">
             <Link className="logo" to="/">
               <img
-                src={'/public/images/logo.png'}
+                src="/client/src/images/logo.png"
                 alt="dog pic"
                 className="nav-logo"
               />

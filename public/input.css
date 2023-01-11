@@ -13,7 +13,7 @@ html {
 body {
   /* font: 'Lato', sans-serif 2rem; */
   font-family: Arial, Helvetica, sans-serif;
-  background: url('./images/test2-bg.jpg') center/cover;
+  background: url(ec6ec65994fa6c53be5d.jpg) center/cover;
   height: 100vh;
 }
 
@@ -326,3 +326,6 @@ a.btn:hover {
   font-size: 3rem;
   padding: 5rem;
 }
+
+
+/*# sourceMappingURL=input.css.map*/

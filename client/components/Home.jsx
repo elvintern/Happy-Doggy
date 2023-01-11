@@ -31,7 +31,7 @@ export default function Home() {
         <div className="card card-owner">
           <img
             className="card-img"
-            src="/public/images/owner-card.jpg"
+            src="/client/src/images/owner-card.jpg"
             alt="a dog being loved"
           />
           <h3 className="heading heading-tertiary">
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="card">
           <img
             className="card-img"
-            src="/public/images/walker-card.jpg"
+            src="/client/src/images/walker-card.jpg"
             alt="two happy dogs walking"
           />
           <h3 className="heading heading-tertiary">for walkers</h3>

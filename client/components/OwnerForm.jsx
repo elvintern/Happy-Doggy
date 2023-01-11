@@ -1,7 +1,7 @@
 import { useAuth0 } from '@auth0/auth0-react'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { postAvailableDog } from '../apis/apiClient'
+import { postAvailableDog } from '../apiClient'
 
 export default function OwnerForm() {
   const { getAccessTokenSilently } = useAuth0()

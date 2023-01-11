@@ -1,6 +1,6 @@
 import { useAuth0 } from '@auth0/auth0-react'
 import React, { useEffect, useState } from 'react'
-import { getUser, updateUser } from '../apis/api'
+import { getUser, updateUser } from '../api'
 
 function Profile() {
   const { getAccessTokenSilently } = useAuth0()
