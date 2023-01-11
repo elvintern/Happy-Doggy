@@ -7,7 +7,8 @@ export default defineConfig({
     manifest: true,
     rollupOptions: {
       // overwrite default .html entry
-      input: '/server/index.js',
+      // input: '/server/index.js',
+      input: './index.html',
     },
   },
   plugins: [
